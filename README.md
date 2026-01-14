@@ -2,6 +2,9 @@
 
 A simple Hytale plugin that allows players to set and teleport to their home location.
 
+## Check us out
+[Snipr](https://hytale.snipr.me/)
+
 ## Commands
 
 - `/sethome` - Set your home at your current location
