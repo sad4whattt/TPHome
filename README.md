@@ -45,13 +45,18 @@ Locate `permissions.json` in your server root and add the permission string to t
 Ensure you use a **List `[]`**, not an Object `{}`.
 
 ```json
-{
   "groups": {
+    "Default": [],
+    "OP": [
+      "*"
+    ],
     "default": [
+      "snipr.homeplugin.*"
+    ],
+    "Adventure": [
       "snipr.homeplugin.*"
     ]
   }
-}
 ```
 
 ## License
