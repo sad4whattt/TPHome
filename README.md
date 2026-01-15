@@ -65,3 +65,7 @@ MIT - Use it however you want!
 
 ---
 
+
+
+## Looking for quality hosting?
+[![Kinetic Hosting - Hytale Server Hosting](https://i.ibb.co/5XFkWtyy/KH-Curse-Forge-Final-Wide-Banner-Hytale-Small.png)](https://billing.kinetichosting.com/aff.php?aff=1251)
