@@ -32,6 +32,36 @@ A simple Hytale plugin that allows players to set and teleport to their home loc
 
 Each player can have multiple homes (subject to the max homes setting) that persist across server restarts.
 
+
+## ⚠️ Important: Permissions Setup
+
+By default, Hytale prevents non-Operators from using slash commands. For regular players to use this plugin, you **must** add the permission node to your server's `permissions.json` file.
+
+**Note:** You must **STOP** your server before editing this file, or it may reset your changes.
+
+### Configuration
+
+Locate `permissions.json` in your server root and add the permission string to the `default` group list.
+
+**Correct Syntax:** Ensure you use a **List `[]`**, not an Object `{}`.
+
+```
+{
+  "groups": {
+    "Default": [],
+    "OP": [
+      "*"
+    ],
+    "default": [
+      "snipr.afkplugin.*",
+    ],
+    "Adventure": [
+      "snipr.afkplugin.*",
+    ]
+  }
+```
+
+
 ## Building
 
 **Requirements:** Java 21+, HytaleServer.jar in `libs/` folder
