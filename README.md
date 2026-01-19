@@ -53,10 +53,10 @@ Locate `permissions.json` in your server root and add the permission string to t
       "*"
     ],
     "default": [
-      "snipr.afkplugin.*",
+      "snipr.homeplugin.*",
     ],
     "Adventure": [
-      "snipr.afkplugin.*",
+      "snipr.homeplugin.*",
     ]
   }
 ```
