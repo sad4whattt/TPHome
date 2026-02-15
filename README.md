@@ -71,7 +71,3 @@ gradlew shadowJar
 ```
 
 Output: `build/libs/HomePlugin-1.0.0.jar`
-
-## Looking for quality hosting?
-
-[![Kinetic Hosting - Hytale Server Hosting](https://i.ibb.co/5XFkWtyy/KH-Curse-Forge-Final-Wide-Banner-Hytale-Small.png)](https://billing.kinetichosting.com/aff.php?aff=1251)
